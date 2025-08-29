@@ -12,7 +12,7 @@ const Index = () => {
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Icon name="BookOpen" size={28} className="text-accent" />
-              <h1 className="text-2xl font-bold text-primary">Журнал "Новый путь"</h1>
+              <h1 className="text-2xl font-bold text-primary">Bash.News</h1>
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <a href="#home" className="text-foreground hover:text-accent transition-colors">Главная</a>
@@ -139,16 +139,6 @@ const Index = () => {
               
               {/* Sidebar */}
               <div className="space-y-6">
-                <Card>
-                  <CardContent className="p-6">
-                    <h4 className="text-xl font-semibold mb-4 text-primary">О журнале</h4>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      "Новый путь" — это голос молодежи, проходящей путь реабилитации. Здесь каждая история важна, 
-                      каждое слово имеет силу исцеления.
-                    </p>
-                  </CardContent>
-                </Card>
-                
                 <Card>
                   <CardContent className="p-6">
                     <h4 className="text-xl font-semibold mb-4 text-primary">Рубрики</h4>
@@ -318,13 +308,13 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center space-x-2 mb-6">
               <Icon name="BookOpen" size={32} className="text-accent" />
-              <h3 className="text-2xl font-bold">Журнал "Новый путь"</h3>
+              <h3 className="text-2xl font-bold">Bash.News</h3>
             </div>
             <p className="text-primary-foreground/80 mb-8">
               Место, где каждый голос важен, где каждая история может изменить чью-то жизнь к лучшему.
             </p>
             <div className="flex justify-center space-x-8 text-sm">
-              <span>© 2025 Журнал "Новый путь"</span>
+              <span>© 2025 Bash.News</span>
               <span>•</span>
               <span>Республика Башкортостан</span>
             </div>
